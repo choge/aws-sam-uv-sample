@@ -8,4 +8,4 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-shared-lib = { path = "../../shared_lib" }
+shared-lib = { workspace = true }

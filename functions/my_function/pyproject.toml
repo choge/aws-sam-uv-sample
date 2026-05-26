@@ -1,0 +1,11 @@
+[project]
+name = "my-function"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.31.0",
+    "shared-lib",
+]
+
+[tool.uv.sources]
+shared-lib = { path = "../../shared_lib" }
